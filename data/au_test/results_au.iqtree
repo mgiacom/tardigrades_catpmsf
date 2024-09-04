@@ -1,0 +1,334 @@
+==> Sister_to_arthro.iqtree <==
+
+USER TREES
+----------
+
+See Sister_to_arthro.trees for trees with branch lengths.
+
+Tree      logL    deltaL  bp-RELL    p-KH     p-SH    p-WKH    p-WSH       c-ELW       p-AU
+-------------------------------------------------------------------------------------------
+  1 -1826125.338  6.6371  0.0508 +  0.269 +  0.656 +  0.269 +  0.792 +    0.0774 +     0.33 + 
+  2 -1826125.286  6.5842  0.0846 +   0.27 +  0.661 +   0.27 +  0.855 +    0.0825 +    0.338 + 
+  3 -1826144.195  25.493  0.0001 -  0.022 - 0.0651 + 0.0028 - 0.0125 -  0.000163 -  0.00165 - 
+  4 -1826144.194  25.493  0.0002 -  0.022 - 0.0651 + 0.0028 -  0.011 -  0.000163 -  0.00176 - 
+  5 -1826144.194  25.493       0 -  0.022 - 0.0651 + 0.0028 -  0.012 -  0.000163 -  0.00165 - 
+  6 -1826125.322  6.6204  0.0866 +   0.27 +  0.657 +   0.27 +  0.779 +    0.0792 +    0.343 + 
+  7 -1826162.142  43.441       0 - 0.0017 - 0.0031 -      0 - 0.0003 -  2.61e-07 - 2.42e-07 - 
+  8 -1826200.252  81.551       0 -      0 -      0 -      0 -      0 -  6.76e-18 - 9.15e-85 - 
+  9 -1826118.701       0   0.212 +  0.548 +      1 +  0.534 +  0.954 +     0.222 +    0.699 + 
+ 10 -1826118.746 0.044594   0.208 +  0.452 +  0.889 +  0.452 +   0.87 +     0.215 +    0.709 + 
+ 11 -1826119.185 0.48353   0.358 +  0.466 +  0.816 +  0.466 +  0.803 +     0.323 +    0.531 + 
+
+deltaL  : logL difference from the maximal logl in the set.
+bp-RELL : bootstrap proportion using RELL method (Kishino et al. 1990).
+p-KH    : p-value of one sided Kishino-Hasegawa test (1989).
+p-SH    : p-value of Shimodaira-Hasegawa test (2000).
+p-WKH   : p-value of weighted KH test.
+p-WSH   : p-value of weighted SH test.
+c-ELW   : Expected Likelihood Weight (Strimmer & Rambaut 2002).
+p-AU    : p-value of approximately unbiased (AU) test (Shimodaira, 2002).
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+All tests performed 10000 resamplings using the RELL method.
+
+TIME STAMP
+----------
+
+Date and time: Tue Mar 26 18:22:42 2024
+Total CPU time used: 655 seconds (0h:10m:54s)
+Total wall-clock time used: 786 seconds (0h:13m:5s)
+
+
+==> Sister_to_lobo_cycloneuralia.iqtree <==
+
+USER TREES
+----------
+
+See Sister_to_lobo_cycloneuralia.trees for trees with branch lengths.
+
+Tree      logL    deltaL  bp-RELL    p-KH     p-SH    p-WKH    p-WSH       c-ELW       p-AU
+-------------------------------------------------------------------------------------------
+  1 -1826149.707  17.628  0.0014 - 0.0631 +  0.172 + 0.0193 -  0.076 +    0.0034 -   0.0182 - 
+  2 -1826139.267  7.1892   0.169 +  0.252 +  0.613 +  0.252 +  0.799 +     0.164 +    0.379 + 
+  3 -1826154.659  22.581  0.0005 - 0.0322 - 0.0774 + 0.0061 -  0.027 -  0.000874 -  0.00479 - 
+  4 -1826154.658   22.58  0.0005 - 0.0322 - 0.0774 + 0.0061 - 0.0302 -  0.000875 -  0.00495 - 
+  5 -1826154.658   22.58  0.0005 - 0.0322 - 0.0774 + 0.0061 - 0.0302 -  0.000874 -  0.00513 - 
+  6 -1826149.698   17.62  0.0024 - 0.0629 +  0.172 + 0.0193 - 0.0834 +   0.00339 -   0.0197 - 
+  7 -1826144.512  12.433  0.0528 +   0.15 +  0.346 +   0.15 +  0.418 +    0.0563 +    0.139 + 
+  8 -1826176.917  44.839       0 -  0.001 - 0.0054 - 0.0001 - 0.0002 -  1.62e-06 -  0.00134 - 
+  9 -1826133.442  1.3637     0.3 +  0.389 +  0.864 +  0.389 +  0.837 +     0.302 +    0.547 + 
+ 10  -1826143.56  11.482  0.0064 - 0.0466 -  0.357 + 0.0196 - 0.0673 +   0.00808 -   0.0219 - 
+ 11 -1826132.078       0   0.466 +  0.611 +      1 +  0.611 +  0.933 +     0.461 +    0.694 + 
+
+deltaL  : logL difference from the maximal logl in the set.
+bp-RELL : bootstrap proportion using RELL method (Kishino et al. 1990).
+p-KH    : p-value of one sided Kishino-Hasegawa test (1989).
+p-SH    : p-value of Shimodaira-Hasegawa test (2000).
+p-WKH   : p-value of weighted KH test.
+p-WSH   : p-value of weighted SH test.
+c-ELW   : Expected Likelihood Weight (Strimmer & Rambaut 2002).
+p-AU    : p-value of approximately unbiased (AU) test (Shimodaira, 2002).
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+All tests performed 10000 resamplings using the RELL method.
+
+TIME STAMP
+----------
+
+Date and time: Tue Mar 26 18:47:11 2024
+Total CPU time used: 667 seconds (0h:11m:7s)
+Total wall-clock time used: 730 seconds (0h:12m:9s)
+
+
+==> Sister_to_lobo.iqtree <==
+
+USER TREES
+----------
+
+See Sister_to_lobo.trees for trees with branch lengths.
+
+Tree      logL    deltaL  bp-RELL    p-KH     p-SH    p-WKH    p-WSH       c-ELW       p-AU
+-------------------------------------------------------------------------------------------
+  1 -1826098.621    14.8  0.0018 -  0.107 +  0.291 +  0.026 -  0.115 +   0.00514 -   0.0284 - 
+  2 -1826089.896  6.0751   0.213 +  0.289 +    0.7 +  0.288 +   0.86 +     0.202 +    0.353 + 
+  3 -1826098.306  14.485  0.0019 -  0.113 +  0.294 + 0.0293 -  0.139 +   0.00527 -   0.0268 - 
+  4 -1826098.305  14.484  0.0026 -  0.113 +  0.294 + 0.0293 -  0.154 +   0.00528 -   0.0261 - 
+  5 -1826098.305  14.484  0.0033 -  0.113 +  0.293 + 0.0293 -  0.151 +   0.00528 -   0.0216 - 
+  6 -1826098.614  14.793  0.0037 -  0.107 +  0.292 + 0.0266 -  0.125 +   0.00516 -   0.0274 - 
+  7 -1826122.468  38.648  0.0001 - 0.0035 - 0.0072 - 0.0002 - 0.0012 -  0.000101 - 0.000404 - 
+  8 -1826143.173  59.352       0 - 0.0001 - 0.0005 -      0 -      0 -  7.91e-12 - 2.01e-27 - 
+  9 -1826083.931 0.11004   0.368 +  0.494 +  0.929 +  0.494 +  0.928 +     0.364 +    0.626 + 
+ 10 -1826092.456  8.6348  0.0107 - 0.0995 +  0.481 + 0.0274 - 0.0938 +     0.015 -   0.0352 - 
+ 11 -1826083.821       0   0.395 +  0.506 +      1 +  0.506 +  0.879 +     0.392 +    0.607 + 
+
+deltaL  : logL difference from the maximal logl in the set.
+bp-RELL : bootstrap proportion using RELL method (Kishino et al. 1990).
+p-KH    : p-value of one sided Kishino-Hasegawa test (1989).
+p-SH    : p-value of Shimodaira-Hasegawa test (2000).
+p-WKH   : p-value of weighted KH test.
+p-WSH   : p-value of weighted SH test.
+c-ELW   : Expected Likelihood Weight (Strimmer & Rambaut 2002).
+p-AU    : p-value of approximately unbiased (AU) test (Shimodaira, 2002).
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+All tests performed 10000 resamplings using the RELL method.
+
+TIME STAMP
+----------
+
+Date and time: Tue Mar 26 18:34:50 2024
+Total CPU time used: 667 seconds (0h:11m:7s)
+Total wall-clock time used: 717 seconds (0h:11m:57s)
+
+
+==> Sister_to_nematodes.iqtree <==
+
+USER TREES
+----------
+
+See Sister_to_nematodes.trees for trees with branch lengths.
+
+Tree      logL    deltaL  bp-RELL    p-KH     p-SH    p-WKH    p-WSH       c-ELW       p-AU
+-------------------------------------------------------------------------------------------
+  1 -1827508.624  21.821  0.0008 - 0.0364 -  0.125 + 0.0077 - 0.0324 -   0.00135 -  0.00419 - 
+  2 -1827494.228  7.4245   0.155 +  0.247 +  0.635 +  0.247 +  0.791 +     0.138 +    0.316 + 
+  3 -1827497.343   10.54  0.0088 -  0.167 +  0.471 +  0.114 +  0.506 +    0.0202 -   0.0941 + 
+  4 -1827497.342  10.539  0.0106 -  0.167 +  0.471 +  0.114 +  0.514 +    0.0203 +   0.0951 + 
+  5 -1827497.342  10.539  0.0136 -  0.167 +  0.471 +  0.114 +  0.473 +    0.0202 -   0.0944 + 
+  6 -1827508.622  21.819  0.0009 - 0.0365 -  0.125 + 0.0077 - 0.0353 -   0.00136 -  0.00403 - 
+  7 -1827534.018  47.214       0 - 0.0006 - 0.0017 - 0.0001 - 0.0001 -  1.24e-07 - 7.45e-05 - 
+  8 -1827543.906  57.102       0 -      0 - 0.0016 -      0 -      0 -  1.64e-09 - 3.02e-45 - 
+  9 -1827486.803       0    0.39 +  0.505 +      1 +  0.505 +  0.925 +     0.386 +    0.616 + 
+ 10  -1827500.99  14.187  0.0032 - 0.0082 -  0.306 + 0.0082 - 0.0277 -   0.00445 -   0.0096 - 
+ 11 -1827486.816 0.013121   0.417 +  0.495 +  0.871 +  0.495 +   0.87 +     0.408 +    0.604 + 
+
+deltaL  : logL difference from the maximal logl in the set.
+bp-RELL : bootstrap proportion using RELL method (Kishino et al. 1990).
+p-KH    : p-value of one sided Kishino-Hasegawa test (1989).
+p-SH    : p-value of Shimodaira-Hasegawa test (2000).
+p-WKH   : p-value of weighted KH test.
+p-WSH   : p-value of weighted SH test.
+c-ELW   : Expected Likelihood Weight (Strimmer & Rambaut 2002).
+p-AU    : p-value of approximately unbiased (AU) test (Shimodaira, 2002).
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+All tests performed 10000 resamplings using the RELL method.
+
+TIME STAMP
+----------
+
+Date and time: Tue Mar 26 19:00:47 2024
+Total CPU time used: 667 seconds (0h:11m:6s)
+Total wall-clock time used: 805 seconds (0h:13m:24s)
+
+
+==> Sister_to_nematoida.iqtree <==
+
+USER TREES
+----------
+
+See Sister_to_nematoida.trees for trees with branch lengths.
+
+Tree      logL    deltaL  bp-RELL    p-KH     p-SH    p-WKH    p-WSH       c-ELW       p-AU
+-------------------------------------------------------------------------------------------
+  1 -1827478.506  20.722  0.0006 - 0.0452 -  0.144 + 0.0091 - 0.0401 -   0.00131 -  0.00476 - 
+  2 -1827464.403  6.6195   0.178 +  0.264 +  0.672 +  0.264 +  0.833 +     0.159 +    0.362 + 
+  3 -1827467.686  9.9023  0.0078 -   0.18 +  0.501 +  0.112 +  0.511 +    0.0219 +   0.0913 + 
+  4 -1827467.685  9.9013  0.0148 -   0.18 +  0.501 +  0.112 +  0.471 +    0.0219 +   0.0926 + 
+  5 -1827467.686  9.9025  0.0143 -   0.18 +  0.501 +  0.111 +  0.445 +    0.0219 -   0.0914 + 
+  6 -1827478.505  20.721  0.0009 - 0.0453 -  0.144 + 0.0091 -  0.039 -   0.00132 -  0.00454 - 
+  7 -1827504.523  46.739       0 - 0.0009 - 0.0023 - 0.0001 - 0.0001 -  7.66e-08 - 5.93e-06 - 
+  8 -1827514.177  56.393       0 - 0.0001 - 0.0007 -      0 -      0 -  2.66e-12 -  8.3e-76 - 
+  9 -1827457.783       0   0.405 +  0.519 +      1 +  0.519 +  0.933 +     0.396 +    0.636 + 
+ 10 -1827471.629  13.845  0.0027 - 0.0092 -  0.321 + 0.0092 - 0.0285 -    0.0039 -  0.00843 - 
+ 11 -1827458.006 0.22277   0.376 +  0.481 +  0.873 +  0.481 +  0.867 +     0.373 +    0.567 + 
+
+deltaL  : logL difference from the maximal logl in the set.
+bp-RELL : bootstrap proportion using RELL method (Kishino et al. 1990).
+p-KH    : p-value of one sided Kishino-Hasegawa test (1989).
+p-SH    : p-value of Shimodaira-Hasegawa test (2000).
+p-WKH   : p-value of weighted KH test.
+p-WSH   : p-value of weighted SH test.
+c-ELW   : Expected Likelihood Weight (Strimmer & Rambaut 2002).
+p-AU    : p-value of approximately unbiased (AU) test (Shimodaira, 2002).
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+All tests performed 10000 resamplings using the RELL method.
+
+TIME STAMP
+----------
+
+Date and time: Tue Mar 26 19:15:16 2024
+Total CPU time used: 667 seconds (0h:11m:7s)
+Total wall-clock time used: 859 seconds (0h:14m:18s)
+
+
+==> Sister_to_nematomorpha.iqtree <==
+
+USER TREES
+----------
+
+See Sister_to_nematomorpha.trees for trees with branch lengths.
+
+Tree      logL    deltaL  bp-RELL    p-KH     p-SH    p-WKH    p-WSH       c-ELW       p-AU
+-------------------------------------------------------------------------------------------
+  1 -1827718.006  19.775  0.0005 -  0.049 -  0.164 + 0.0082 - 0.0343 -   0.00101 -  0.00349 - 
+  2 -1827704.104  5.8732   0.206 +  0.289 +   0.72 +  0.289 +  0.868 +      0.18 +    0.395 + 
+  3 -1827707.342  9.1104  0.0134 -  0.203 +  0.546 +  0.112 +  0.473 +     0.025 -    0.109 + 
+  4 -1827707.341  9.1095  0.0123 -  0.203 +  0.547 +  0.112 +  0.512 +     0.025 +    0.109 + 
+  5 -1827707.341  9.1096  0.0171 -  0.203 +  0.547 +  0.112 +  0.463 +     0.025 +    0.109 + 
+  6 -1827718.003  19.772  0.0002 -  0.049 -  0.164 + 0.0083 - 0.0339 -   0.00101 -  0.00373 - 
+  7 -1827744.179  45.948       0 - 0.0007 - 0.0016 - 0.0002 - 0.0003 -  5.94e-07 -  1.3e-06 - 
+  8 -1827755.003  56.772       0 - 0.0002 - 0.0008 - 0.0001 - 0.0001 -  2.56e-12 - 1.06e-55 - 
+  9 -1827698.231       0   0.398 +  0.548 +      1 +  0.548 +  0.948 +     0.392 +    0.637 + 
+ 10 -1827711.946  13.715  0.0027 - 0.0088 -  0.326 + 0.0088 - 0.0301 -   0.00346 -   0.0047 - 
+ 11   -1827698.8 0.56907   0.349 +  0.452 +  0.858 +  0.452 +  0.843 +     0.348 +    0.549 + 
+
+deltaL  : logL difference from the maximal logl in the set.
+bp-RELL : bootstrap proportion using RELL method (Kishino et al. 1990).
+p-KH    : p-value of one sided Kishino-Hasegawa test (1989).
+p-SH    : p-value of Shimodaira-Hasegawa test (2000).
+p-WKH   : p-value of weighted KH test.
+p-WSH   : p-value of weighted SH test.
+c-ELW   : Expected Likelihood Weight (Strimmer & Rambaut 2002).
+p-AU    : p-value of approximately unbiased (AU) test (Shimodaira, 2002).
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+All tests performed 10000 resamplings using the RELL method.
+
+TIME STAMP
+----------
+
+Date and time: Tue Mar 26 19:28:22 2024
+Total CPU time used: 669 seconds (0h:11m:8s)
+Total wall-clock time used: 774 seconds (0h:12m:54s)
+
+
+==> Sister_to_onycho.iqtree <==
+
+USER TREES
+----------
+
+See Sister_to_onycho.trees for trees with branch lengths.
+
+Tree      logL    deltaL  bp-RELL    p-KH     p-SH    p-WKH    p-WSH       c-ELW       p-AU
+-------------------------------------------------------------------------------------------
+  1  -1825819.27  6.9925  0.0295 -   0.26 +  0.654 +  0.245 +   0.77 +    0.0566 +    0.198 + 
+  2 -1825819.223  6.9455  0.0422 +   0.26 +  0.656 +   0.26 +  0.863 +    0.0613 +    0.261 + 
+  3 -1825837.743  25.466  0.0001 - 0.0253 - 0.0646 + 0.0033 - 0.0124 -  0.000194 - 0.000952 - 
+  4 -1825837.742  25.464  0.0002 - 0.0253 - 0.0646 + 0.0033 - 0.0141 -  0.000194 -  0.00094 - 
+  5 -1825837.742  25.465  0.0001 - 0.0253 - 0.0646 + 0.0032 - 0.0144 -  0.000194 - 0.000863 - 
+  6  -1825818.29  6.0119   0.179 +  0.286 +    0.7 +  0.286 +  0.779 +     0.145 +    0.404 + 
+  7 -1825856.141  43.863       0 - 0.0009 - 0.0028 -      0 -      0 -  6.99e-06 - 0.000117 - 
+  8 -1825893.563  81.285       0 -      0 -      0 -      0 -      0 -  2.38e-12 - 1.82e-77 - 
+  9 -1825813.226 0.94858   0.115 +  0.262 +   0.86 +  0.262 +  0.702 +     0.149 +    0.342 + 
+ 10 -1825812.278       0   0.359 +  0.739 +      1 +  0.611 +   0.95 +     0.327 +    0.705 + 
+ 11 -1825813.806  1.5282   0.275 +  0.389 +  0.796 +  0.389 +  0.754 +     0.261 +    0.478 + 
+
+deltaL  : logL difference from the maximal logl in the set.
+bp-RELL : bootstrap proportion using RELL method (Kishino et al. 1990).
+p-KH    : p-value of one sided Kishino-Hasegawa test (1989).
+p-SH    : p-value of Shimodaira-Hasegawa test (2000).
+p-WKH   : p-value of weighted KH test.
+p-WSH   : p-value of weighted SH test.
+c-ELW   : Expected Likelihood Weight (Strimmer & Rambaut 2002).
+p-AU    : p-value of approximately unbiased (AU) test (Shimodaira, 2002).
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+All tests performed 10000 resamplings using the RELL method.
+
+TIME STAMP
+----------
+
+Date and time: Tue Mar 26 19:40:51 2024
+Total CPU time used: 691 seconds (0h:11m:30s)
+Total wall-clock time used: 738 seconds (0h:12m:17s)
+
+
+==> Sister_to_scalidophoran.iqtree <==
+
+USER TREES
+----------
+
+See Sister_to_scalidophoran.trees for trees with branch lengths.
+
+Tree      logL    deltaL  bp-RELL    p-KH     p-SH    p-WKH    p-WSH       c-ELW       p-AU
+-------------------------------------------------------------------------------------------
+  1 -1825954.456  25.554  0.0002 - 0.0242 - 0.0558 +  0.003 - 0.0136 -  0.000308 - 0.000541 - 
+  2 -1825934.945  6.0438   0.187 +   0.29 +  0.677 +   0.29 +   0.86 +     0.164 +    0.399 + 
+  3 -1825937.891  8.9896  0.0104 -  0.213 +   0.48 +  0.122 +  0.513 +    0.0251 -    0.126 + 
+  4  -1825937.89  8.9884  0.0126 -  0.213 +   0.48 +  0.122 +  0.552 +    0.0251 +    0.126 + 
+  5  -1825937.89  8.9886  0.0182 -  0.213 +   0.48 +  0.122 +  0.504 +    0.0251 +    0.126 + 
+  6 -1825954.453  25.552  0.0002 - 0.0243 - 0.0559 + 0.0029 - 0.0136 -  0.000308 - 0.000564 - 
+  7 -1825953.079  24.177  0.0005 - 0.0241 -  0.061 + 0.0038 - 0.0139 -  0.000774 - 0.000924 - 
+  8 -1825952.468  23.566  0.0017 - 0.0384 - 0.0994 + 0.0116 - 0.0409 -    0.0018 -   0.0115 - 
+  9 -1825929.258 0.35662    0.36 +  0.471 +    0.9 +  0.471 +  0.893 +     0.355 +    0.574 + 
+ 10 -1825948.293  19.392  0.0008 - 0.0104 -  0.159 +  0.003 - 0.0108 -  0.000837 -   0.0028 - 
+ 11 -1825928.902       0   0.409 +  0.529 +      1 +  0.529 +  0.888 +     0.402 +    0.609 + 
+
+deltaL  : logL difference from the maximal logl in the set.
+bp-RELL : bootstrap proportion using RELL method (Kishino et al. 1990).
+p-KH    : p-value of one sided Kishino-Hasegawa test (1989).
+p-SH    : p-value of Shimodaira-Hasegawa test (2000).
+p-WKH   : p-value of weighted KH test.
+p-WSH   : p-value of weighted SH test.
+c-ELW   : Expected Likelihood Weight (Strimmer & Rambaut 2002).
+p-AU    : p-value of approximately unbiased (AU) test (Shimodaira, 2002).
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+All tests performed 10000 resamplings using the RELL method.
+
+TIME STAMP
+----------
+
+Date and time: Tue Mar 26 19:54:08 2024
+Total CPU time used: 667 seconds (0h:11m:7s)
+Total wall-clock time used: 787 seconds (0h:13m:6s)
