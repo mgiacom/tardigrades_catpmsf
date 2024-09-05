@@ -6,47 +6,46 @@ All the following are based on one single topology (sister to lobopodia). In the
 
 1 - Run Phylobayes under a fixed topology (in this case for ~2900 generation), check the parameter convergence and estimate site-specific profiles (under CAT-Poisson):
 
-pb_mpi  -s  matrix_40sp.fasta. -T  sister_to_lobopodia.tree  -cat -poisson  sister_to_lobopodia_chain1/2
+pb_mpi -s matrix_40sp.fasta -T sister_to_lobopodia.tree -cat -poisson sister_to_lobopodia_chain1 (and chain_2)
 
-tracecomp  -x  500  sister_to_lobopodia_chain1 sister_to_lobopodia_chain2
+tracecomp -x 500 sister_to_lobopodia_chain1 sister_to_lobopodia_chain2
 
-readpb_mpi  -ss  -x   500  10  sister_to_lobopodia_chain1
+readpb_mpi -ss -x 500 10 sister_to_lobopodia_chain1
 
 
 
 2 - Convert Phylobayes .siteprofiles to IQ-TREE .sitefreq with the script https://github.com/drenal/cat-pmsf-paper/blob/main/scripts/convert-site-dists.py:
 
-convert-site-dists.py   sister_to_lobopodia_chain1.siteprofiles
+convert-site-dists.py sister_to_lobopodia_chain1.siteprofiles
 
 
 
 3 - Use the generated .sitefreq file to perform an unconstrained phylogenetic reconstruction in IQ-TREE:
 
-iqtree2 -s  matrix_40sp.fasta -m Poisson+G4 --wbtl  -wsr  -fs  sister_to_lobopodia.sitefreq  -bb 1000  -T 12  
-
+iqtree2 -s matrix_40sp.fasta -m Poisson+G4 --wbtl -wsr -fs sister_to_lobopodia.sitefreq -bb 1000
 
 
 4 - Create a nexus file to simulate under PMSF. I use the script create_nexus_pmsf_simulation.py in this repository/scripts.
 
-python  create_nexus_pmsf_simulation.py   sister_to_lobopodia.sitefreq  sister_to_lobopodia_chain1.rate  >  lobopodia.nex
+python create_nexus_pmsf_simulation.py sister_to_lobopodia.sitefreq sister_to_lobopodia_chain1.rate > lobopodia.nex
 
 
 
 5 - Simulate 100 datasets using alisim:
 
-iqtree2  --alisim  sister_lobopodia_sim -p lobopodia.nex  -t sister_lobopodia.contree --length 70888 --out-format  fasta --num-alignments 100 --seqtype AA
+iqtree2 --alisim sister_lobopodia_sim -p lobopodia.nex -t sister_lobopodia.contree --length 70888 --out-format fasta --num-alignments 100 --seqtype AA
 
 
 
 6 - I “transfer” the gaps of the original dataset to the simulated ones. I use the script simulate_gaps.py in this repository/scripts. I am in the directory with the 100 *.fa simulated dataset and with the original matrix.
 
-for i  in  *fa;  do  python  simulate_gaps.py  matrix_40sp.fasta  $i  ${i}_gaps; done
+for i in *fa; do python simulate_gaps.py matrix_40sp.fasta $i ${i}_gaps; done
 
 
 
 7 -  I perform model adequacy test on the simulated datasets using the script count_zscore.pl in this epository/scripts. I am in the directory with the 100 *_gaps simulated dataset and with the original matrix.
 
-perl  count_zscore.pl  matrix_40sp.fasta
+perl count_zscore.pl matrix_40sp.fasta
 
 
 The reuslts of the model test are in the diversity.pbr_gaps and diversity_scores_bootstrapped_data.txt_gaps files
