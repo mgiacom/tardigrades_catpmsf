@@ -25,6 +25,7 @@ convert-site-dists.py sister_to_lobopodia_chain1.siteprofiles
 iqtree2 -s matrix_40sp.fasta -m Poisson+G4 --wbtl -wsr -fs sister_to_lobopodia.sitefreq -bb 1000
 
 
+
 4 - Create a nexus file to simulate under PMSF. I use the script create_nexus_pmsf_simulation.py in this repository/scripts.
 
 python create_nexus_pmsf_simulation.py sister_to_lobopodia.sitefreq sister_to_lobopodia_chain1.rate > lobopodia.nex
