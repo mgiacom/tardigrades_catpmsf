@@ -15,3 +15,4 @@ Structure:
 - [data/ssf](data/ssf): sitefreq files in IQ-TREE format
 - [scripts](scripts/): scripts to create data for simulations under PMSF and model test
 - [pipeline](pipeline): pipeline with relevant commands
+- [tutorial](data/): data and tutorial to perform model adequacy through parametric bootstrap under maximu, likelihood
